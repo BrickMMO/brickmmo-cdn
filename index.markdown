@@ -28,12 +28,12 @@ https://cdn.brickmmo.com/exceptions@1.0.0/bootstrap.css
 https://cdn.brickmmo.com/exceptions@1.0.0/fontawesome.css
 ```
 
-### Font Icons
+### Glyphs Icons
 
-CSS include files to use the [BrickMMO Font Icons](https://glyphs.brickmmo.com).
+CSS include files to use the [BrickMMO Glyphs Icons](https://glyphs.brickmmo.com).
 
 ```
-https://cdn.brickmmo.com/glyphs@1.0.0/glyphs.css
+https://cdn.brickmmo.com/glyphs@1.0.0/icons.css
 ```
 
 > Available Versions: 1.0.0  
