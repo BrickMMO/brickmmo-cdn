@@ -102,6 +102,11 @@ https://cdn.brickmmo.com/images@1.0.0/navbar-console.png
 https://cdn.brickmmo.com/images@1.0.0/navbar-menu.png
 ```
 
+```
+https://cdn.brickmmo.com/images@1.0.0/no_avatar.png
+https://cdn.brickmmo.com/images@1.0.0/no_city.png
+```
+
 > Available Versions: 1.0.0  
 > Documentation: [branding.brickmmo.com](https://branding.brickmmo.com)
 
