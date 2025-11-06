@@ -127,7 +127,7 @@ https://cdn.brickmmo.com/readm@1.0.0/readme.css
 A BrickMMO header to be added to all BrickMMO asssets. Include this file directly before the close `body` tag.
 
 ```
-<script src="https://cdn.brickmmo.com/bar@1.0.0/bar.js"></script>
+<script src="https://cdn.brickmmo.com/bar@1.1.0/bar.js"></script>
 ```
 
 ---
