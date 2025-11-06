@@ -106,12 +106,6 @@ document.querySelectorAll('*').forEach(el => {
 let barBrickMmo = document.getElementById('bar-brickmmo');
 let barMenu = document.getElementById('bar-menu');
 
-if(menu)
-{
-  barBrickMmo.style.left = "70px";
-  barMenu.style.display = "block";
-}
-
 fetch(sso + '/api/user',{
   credentials: 'include',
 })
@@ -144,6 +138,12 @@ fetch(sso + '/api/user',{
     if(cons)
     {
       barConsole.style.display = "block";
+    }
+
+    if(menu)
+    {
+      barBrickMmo.style.left = "70px";
+      barMenu.style.display = "block";
     }
   }
 });
