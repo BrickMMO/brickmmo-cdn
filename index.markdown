@@ -96,6 +96,7 @@ https://cdn.brickmmo.com/images@1.0.0/brickmmo-symbol-white.png
 ```
 
 ```
+https://cdn.brickmmo.com/images@1.0.0/navbar-admin.png
 https://cdn.brickmmo.com/images@1.0.0/navbar-apps.png
 https://cdn.brickmmo.com/images@1.0.0/navbar-assets.png
 https://cdn.brickmmo.com/images@1.0.0/navbar-console.png
