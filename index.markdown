@@ -4,7 +4,7 @@
 
 **BrickMMO CDN is the recommended CDN for all shared BrickMMO images, icons, CSS, and JavaScript files.**
 
-Include CSS files by placing a `<link>` tag in the `<head>` section of your HTML document:
+Include CSS files by plaing a `<link>` tag in the `<head>` section of your HTML document:
 
 ```
 <link rel="stylesheet" href="https://cdn.brickmmo.com/library@1.0.0/library.css">
@@ -96,6 +96,7 @@ https://cdn.brickmmo.com/images@1.0.0/brickmmo-symbol-white.png
 ```
 
 ```
+https://cdn.brickmmo.com/images@1.0.0/navbar-admin.png
 https://cdn.brickmmo.com/images@1.0.0/navbar-apps.png
 https://cdn.brickmmo.com/images@1.0.0/navbar-assets.png
 https://cdn.brickmmo.com/images@1.0.0/navbar-console.png
@@ -126,7 +127,7 @@ https://cdn.brickmmo.com/readm@1.0.0/readme.css
 A BrickMMO header to be added to all BrickMMO asssets. Include this file directly before the close `body` tag.
 
 ```
-<script src="https://cdn.brickmmo.com/bar@1.0.0/bar.js"></script>
+<script src="https://cdn.brickmmo.com/bar@1.1.0/bar.js"></script>
 ```
 
 ---
@@ -135,4 +136,11 @@ A BrickMMO header to be added to all BrickMMO asssets. Include this file directl
 <img src="https://cdn.brickmmo.com/images@1.0.0/brickmmo-logo-coloured-horizontal.png" width="100">
 </a>
 
-<script src="https://cdn.brickmmo.com/bar@1.0.0/bar.js"></script>
+<script 
+    src="https://cdn.brickmmo.com/bar@1.1.0/bar.js"
+    data-console="false"
+    data-menu="false"
+    data-admin="false"
+    data-local="false"
+    data-https="true"
+></script>
