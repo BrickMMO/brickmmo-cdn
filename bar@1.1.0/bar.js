@@ -17,6 +17,7 @@ let styles = `
 
   #bottom-bar-container {
     color: #848484;
+    background-color: #ffffff;
     left: 0;
     right: 0;
     text-align: center;
