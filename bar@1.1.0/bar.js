@@ -15,6 +15,7 @@ const profile = domain.includes('sso.brickmmo');
 let styles = `
 <style>
 
+  /*
   #bottom-bar-container {
     color: #848484;
     background-color: #ffffff;
@@ -26,6 +27,7 @@ let styles = `
     box-sizing: border-box;
     border-top: 1px solid #ccc;
   }
+  */
 
   #bar-container {
     position: fixed;
@@ -154,7 +156,7 @@ let topbarHtml = `
   // Insert topbar at the top of the body
   document.head.insertAdjacentHTML('beforeend', styles);
   document.body.insertAdjacentHTML('afterbegin', topbarHtml);
-  document.body.insertAdjacentHTML('beforeend', bottomBarHtml);
+  // document.body.insertAdjacentHTML('beforeend', bottomBarHtml);
 
   // Adjust 100vh elements
   document.querySelectorAll('*').forEach(el => {
