@@ -54,26 +54,28 @@ https://cdn.brickmmo.com/icons@1.0.0/conversions.png
 https://cdn.brickmmo.com/icons@1.0.0/control-panel.png
 https://cdn.brickmmo.com/icons@1.0.0/events.png
 https://cdn.brickmmo.com/icons@1.0.0/flow.png
-https://cdn.brickmmo.com/icons@1.0.0/font-icons.png
+https://cdn.brickmmo.com/icons@1.0.0/glyphs.png
 https://cdn.brickmmo.com/icons@1.0.0/gps.png
+https://cdn.brickmmo.com/icons@1.0.0/list.png
 https://cdn.brickmmo.com/icons@1.0.0/media.png
 https://cdn.brickmmo.com/icons@1.0.0/navigation.png
 https://cdn.brickmmo.com/icons@1.0.0/parts.png
 https://cdn.brickmmo.com/icons@1.0.0/pick-a-brick.png
 https://cdn.brickmmo.com/icons@1.0.0/pixelate.png
-https://cdn.brickmmo.com/icons@1.0.0/placekit.png
+https://cdn.brickmmo.com/icons@1.0.0/place-kit.png
 https://cdn.brickmmo.com/icons@1.0.0/power-grid.png
 https://cdn.brickmmo.com/icons@1.0.0/qr.png
 https://cdn.brickmmo.com/icons@1.0.0/radio.png
-https://cdn.brickmmo.com/icons@1.0.0/roadview.png
+https://cdn.brickmmo.com/icons@1.0.0/road-view.png
+https://cdn.brickmmo.com/icons@1.0.0/sso.png
 https://cdn.brickmmo.com/icons@1.0.0/stats.png
 https://cdn.brickmmo.com/icons@1.0.0/stores.png
 https://cdn.brickmmo.com/icons@1.0.0/timeline.png
-https://cdn.brickmmo.com/icons@1.0.0/timeshets.png
+https://cdn.brickmmo.com/icons@1.0.0/timesheets.png
 https://cdn.brickmmo.com/icons@1.0.0/tracks.png
 https://cdn.brickmmo.com/icons@1.0.0/train.png
 https://cdn.brickmmo.com/icons@1.0.0/uptime.png
-https://cdn.brickmmo.com/icons@1.0.0/videokit.png
+https://cdn.brickmmo.com/icons@1.0.0/video-kit.png
 ```
 
 > Available Versions: 1.0.0  
