@@ -110,6 +110,7 @@ https://cdn.brickmmo.com/images@1.0.0/navbar-menu.png
 https://cdn.brickmmo.com/images@1.0.0/no_avatar.png
 https://cdn.brickmmo.com/images@1.0.0/no_calendar.png
 https://cdn.brickmmo.com/images@1.0.0/no_city.png
+https://cdn.brickmmo.com/images@1.0.0/no_screenshot.png
 https://cdn.brickmmo.com/images@1.0.0/coming-soon.png
 ```
 
