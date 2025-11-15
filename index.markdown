@@ -67,6 +67,7 @@ https://cdn.brickmmo.com/icons@1.0.0/power-grid.png
 https://cdn.brickmmo.com/icons@1.0.0/qr.png
 https://cdn.brickmmo.com/icons@1.0.0/radio.png
 https://cdn.brickmmo.com/icons@1.0.0/road-view.png
+https://cdn.brickmmo.com/icons@1.0.0/search.png
 https://cdn.brickmmo.com/icons@1.0.0/sso.png
 https://cdn.brickmmo.com/icons@1.0.0/stats.png
 https://cdn.brickmmo.com/icons@1.0.0/stores.png
