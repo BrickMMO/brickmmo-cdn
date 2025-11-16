@@ -10,7 +10,7 @@ const domain = window.location.host;
 const site = (https ? 'https' : 'http' ) + '://' + domain;
 
 const sso = (https ? 'https' : 'http' ) + '://sso.' + (local ? 'local.' : '') + 'brickmmo.com' + (local ? '' : '');
-const profile = domain.includes('sso.brickmmo');
+const profile = domain.includes('sso.' + (local ? 'local.' : '') + 'brickmmo');
 
 let styles = `
 <style>
