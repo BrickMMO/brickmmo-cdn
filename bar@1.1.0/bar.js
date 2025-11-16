@@ -9,25 +9,22 @@ const https = script.dataset.https == "true" ? true : false;
 const domain = window.location.host;
 const site = (https ? 'https' : 'http' ) + '://' + domain;
 
-const sso = (https ? 'https' : 'http' ) + '://' + 'sso.' + (local ? 'local.' : '') + 'brickmmo.com';
+const sso = (https ? 'https' : 'http' ) + '://sso.' + (local ? 'local.' : '') + 'brickmmo.com' + (local ? '' : '');
 const profile = domain.includes('sso.brickmmo');
 
 let styles = `
 <style>
 
-  /*
   #bottom-bar-container {
     color: #848484;
     background-color: #ffffff;
-    left: 0;
-    right: 0;
     text-align: center;
-    padding: 10px;
+    padding: 15px;
     z-index: 9998;
     box-sizing: border-box;
     border-top: 1px solid #ccc;
+    margin-top: 30px;
   }
-  */
 
   #bar-container {
     position: fixed;
@@ -153,10 +150,7 @@ let topbarHtml = `
 
 (function () {
 
-  // Insert topbar at the top of the body
-  document.head.insertAdjacentHTML('beforeend', styles);
-  document.body.insertAdjacentHTML('afterbegin', topbarHtml);
-  // document.body.insertAdjacentHTML('beforeend', bottomBarHtml);
+  
 
   // Adjust 100vh elements
   document.querySelectorAll('*').forEach(el => {
@@ -226,6 +220,12 @@ let topbarHtml = `
         barMenu.style.display = "block";
       }
     }
+
   });
+
+  // Insert topbar at the top of the body
+  document.head.insertAdjacentHTML('beforeend', styles);
+  document.body.insertAdjacentHTML('afterbegin', topbarHtml);
+  document.body.innerHTML += bottomBarHtml;
 
 })();
