@@ -14,9 +14,15 @@ const profile = domain.includes('sso.brickmmo');
 
 let styles = `
 <style>
-
+  /*
   #bottom-bar-container {
-    color: #848484;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    color: #848484 !important;
+    font-family: font-family: Inter, sans-serif !important;
     background-color: #ffffff;
     text-align: center;
     padding: 15px;
@@ -25,6 +31,7 @@ let styles = `
     border-top: 1px solid #ccc;
     margin-top: 30px;
   }
+  */
 
   #bar-container {
     position: fixed;
@@ -111,7 +118,6 @@ let bottomBarHtml = `
     <a href="http://qr.local.brickmmo.com">QR</a> | 
     <a href="http://conversions.local.brickmmo.com">Conversions</a> | 
     <a href="http://bricksum.local.brickmmo.com">Bricksum</a> | 
-    <a href="http://applications.local.brickmmo.com">Applications</a>  
     <br>
     `
     :
@@ -226,6 +232,6 @@ let topbarHtml = `
   // Insert topbar at the top of the body
   document.head.insertAdjacentHTML('beforeend', styles);
   document.body.insertAdjacentHTML('afterbegin', topbarHtml);
-  document.body.innerHTML += bottomBarHtml;
+  // document.body.innerHTML += bottomBarHtml;
 
 })();
