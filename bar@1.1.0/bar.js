@@ -9,7 +9,7 @@ const https = script.dataset.https == "true" ? true : false;
 const domain = window.location.host;
 const site = (https ? 'https' : 'http' ) + '://' + domain;
 
-const sso = (https ? 'https' : 'http' ) + '://' + (local ? 'local.' : '') + 'sso.brickmmo.com';
+const sso = (https ? 'https' : 'http' ) + '://' + 'sso.' + (local ? 'local.' : '') + 'brickmmo.com';
 const profile = domain.includes('sso.brickmmo');
 
 let styles = `
@@ -107,14 +107,14 @@ let bottomBarHtml = `
   <br>
   ${local ?
     `
-    <a href="http://local.sso.brickmmo.com">SSO</a> | 
-    <a href="http://local.parts.brickmmo.com">Parts</a> | 
-    <a href="http://local.events.brickmmo.com">Events</a> | 
-    <a href="http://local.colours.brickmmo.com">Colours</a> | 
-    <a href="http://local.qr.brickmmo.com">QR</a> | 
-    <a href="http://local.conversions.brickmmo.com">Conversions</a> | 
-    <a href="http://local.bricksum.brickmmo.com">Bricksum</a> | 
-    <a href="http://local.applications.brickmmo.com">Applications</a>  
+    <a href="http://sso.local.brickmmo.com">SSO</a> | 
+    <a href="http://parts.local.brickmmo.com">Parts</a> | 
+    <a href="http://events.local.brickmmo.com">Events</a> | 
+    <a href="http://colours.local.brickmmo.com">Colours</a> | 
+    <a href="http://qr.local.brickmmo.com">QR</a> | 
+    <a href="http://conversions.local.brickmmo.com">Conversions</a> | 
+    <a href="http://bricksum.local.brickmmo.com">Bricksum</a> | 
+    <a href="http://applications.local.brickmmo.com">Applications</a>  
     <br>
     `
     :
