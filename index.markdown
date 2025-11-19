@@ -4,7 +4,7 @@
 
 **BrickMMO CDN is the recommended CDN for all shared BrickMMO images, icons, CSS, and JavaScript files.**
 
-Include CSS files by plaing a `<link>` tag in the `<head>` section of your HTML document:
+Include CSS files by placing a `<link>` tag in the `<head>` section of your HTML document:
 
 ```
 <link rel="stylesheet" href="https://cdn.brickmmo.com/library@1.0.0/library.css">
@@ -41,7 +41,7 @@ https://cdn.brickmmo.com/glyphs@1.0.0/icons.css
 
 ### Icons
 
-PNG versions of the BRickMMO application icons from the [BrickMMO Branding Guidelines](https://branding.brickmmo.com).
+PNG versions of the BrickMMO application icons from the [BrickMMO Branding Guidelines](https://branding.brickmmo.com).
 
 ```
 https://cdn.brickmmo.com/icons@1.0.0/brick-overflow.png
