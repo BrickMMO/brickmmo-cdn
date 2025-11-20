@@ -128,6 +128,13 @@ https://cdn.brickmmo.com/images@1.0.0/coming-soon.png
 https://cdn.brickmmo.com/images@1.0.0/trans-checkers.png
 ```
 
+```
+https://cdn.brickmmo.com/images@1.0.0/instagram.png
+https://cdn.brickmmo.com/images@1.0.0/github.png
+https://cdn.brickmmo.com/images@1.0.0/tiktok.png
+https://cdn.brickmmo.com/images@1.0.0/youtube.png
+```
+
 > Available Versions: 1.0.0  
 > Documentation: [branding.brickmmo.com](https://branding.brickmmo.com)
 
