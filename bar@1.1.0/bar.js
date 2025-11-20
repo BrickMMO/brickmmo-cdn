@@ -111,33 +111,6 @@ let styles = `
 </style>
 `;
 
-/*
-let bottomBarHtml = `
-<div id="bottom-bar-container">
-  <a href=-"https://brickmmo.com">BrickMMO</a> | 
-  <a href="https://codeadam.ca">CodeAdam</a> | 
-  <a href="https://humber.ca">Humber Polytechnic</a>
-  <br>
-  ${local ?
-    `
-    <a href="http://sso.local.brickmmo.com">SSO</a> | 
-    <a href="http://parts.local.brickmmo.com">Parts</a> | 
-    <a href="http://events.local.brickmmo.com">Events</a> | 
-    <a href="http://colours.local.brickmmo.com">Colours</a> | 
-    <a href="http://qr.local.brickmmo.com">QR</a> | 
-    <a href="http://conversions.local.brickmmo.com">Conversions</a> | 
-    <a href="http://bricksum.local.brickmmo.com">Bricksum</a> | 
-    <br>
-    `
-    :
-    `
-    `
-  }
-  <small>LEGO&reg; is a trademark of the LEGO Group of companies which does not sponsor, authorize or endorse this site.</small>
-</div>
-`;
-*/
-
 let bottomBarHtml = `
 <div id="bottom-bar-right" style="font-size: 1.5em; padding: 10px 0;">
   <a href="https://www.tiktok.com/@brickmmo" target="_blank" style="margin:0 5px; color: #848484 !important;"><i class="fa-brands fa-tiktok"></i></a>
@@ -179,8 +152,6 @@ let topbarHtml = `
 `;
 
 (function () {
-
-  
 
   // Adjust 100vh elements
   document.querySelectorAll('*').forEach(el => {
@@ -253,9 +224,10 @@ let topbarHtml = `
 
   });
 
-  // Insert topbar at the top of the body
+
+  // // Insert topbar at the top of the body
   document.head.insertAdjacentHTML('beforeend', styles);
   document.body.insertAdjacentHTML('afterbegin', topbarHtml);
-  document.body.innerHTML += bottomBarHtml;
+  document.body.insertAdjacentHTML('afterbegin', bottomBarHtml);
 
 })();
