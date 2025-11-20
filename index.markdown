@@ -129,10 +129,10 @@ https://cdn.brickmmo.com/images@1.0.0/trans-checkers.png
 ```
 
 ```
-https://cdn.brickmmo.com/images@1.0.0/instagram.png
-https://cdn.brickmmo.com/images@1.0.0/github.png
-https://cdn.brickmmo.com/images@1.0.0/tiktok.png
-https://cdn.brickmmo.com/images@1.0.0/youtube.png
+https://cdn.brickmmo.com/images@1.0.0/social-instagram.png
+https://cdn.brickmmo.com/images@1.0.0/social-github.png
+https://cdn.brickmmo.com/images@1.0.0/social-tiktok.png
+https://cdn.brickmmo.com/images@1.0.0/social-youtube.png
 ```
 
 > Available Versions: 1.0.0  
