@@ -10,28 +10,36 @@ const domain = window.location.host;
 const site = (https ? 'https' : 'http' ) + '://' + domain;
 
 const sso = (https ? 'https' : 'http' ) + '://sso.' + (local ? 'local.' : '') + 'brickmmo.com' + (local ? '' : '');
+const toggle = (https ? 'https' : 'http' ) + '://applications.' + (local ? 'local.' : '') + 'brickmmo.com' + (local ? '' : '');
 const profile = domain.includes('sso.' + (local ? 'local.' : '') + 'brickmmo');
 
 let styles = `
 <style>
-  /*
-  #bottom-bar-container {
+  @media (max-width: 1200px) {
+    #bottom-bar-left,
+    #bottom-bar-right {
+      display: none !important;
+    }
+  }
+  #bottom-bar-left,
+  #bottom-bar-right {
+    font-size: 15px !important;
     position: fixed;
-    left: 0;
-    right: 0;
     bottom: 0;
     width: 100%;
     color: #848484 !important;
-    font-family: font-family: Inter, sans-serif !important;
-    background-color: #ffffff;
-    text-align: center;
+    text-align: right;
     padding: 15px;
     z-index: 9998;
-    box-sizing: border-box;
-    border-top: 1px solid #ccc;
-    margin-top: 30px;
+    width: auto;
   }
-  */
+  #bottom-bar-left {
+    left: 0;
+  }
+  #bottom-bar-right {
+    right: 0;
+  }
+
 
   #bar-container {
     position: fixed;
@@ -103,6 +111,7 @@ let styles = `
 </style>
 `;
 
+/*
 let bottomBarHtml = `
 <div id="bottom-bar-container">
   <a href=-"https://brickmmo.com">BrickMMO</a> | 
@@ -127,6 +136,21 @@ let bottomBarHtml = `
   <small>LEGO&reg; is a trademark of the LEGO Group of companies which does not sponsor, authorize or endorse this site.</small>
 </div>
 `;
+*/
+
+let bottomBarHtml = `
+<div id="bottom-bar-right" style="font-size: 1.5em; padding: 10px 0;">
+  <a href="https://www.tiktok.com/@brickmmo" target="_blank" style="margin:0 5px; color: #848484 !important;"><i class="fa-brands fa-tiktok"></i></a>
+  <a href="https://www.instagram.com/brickmmo" target="_blank" style="margin:0 5px; color: #848484 !important;"><i class="fa-brands fa-instagram"></i></a>
+  <a href="https://www.youtube.com/@brickmmo" target="_blank" style="margin:0 5px; color: #848484 !important;"><i class="fa-brands fa-youtube"></i></a>
+  <a href="https://github.com/BrickMMO" target="_blank" style="margin:0 10px 0 5px; color: #848484 !important;"><i class="fa-brands fa-github"></i></a>
+</div>
+<div id="bottom-bar-left" style="font-size: 1.5em; padding: 10px 0;">
+  <a href="https://codeadam.ca" target="_blank" style="margin: 0 5px 0 10px;">
+    <img src="https://cdn.codeadam.ca/images@1.0.0/codeadam-logo-coloured.png" width="20">
+  </a>
+</div>
+`;
 
 let topbarHtml = `
 <div id="bar-container">
@@ -147,7 +171,7 @@ let topbarHtml = `
   <a href="${sso}" id="bar-user">
     <img src="https://cdn.brickmmo.com/images@1.0.0/no-avatar.png">
   </a>
-  <a href="https://assets.brickmmo.com/" id="bar-hamburger">
+  <a href="${toggle}/toggle" id="bar-hamburger">
     <img src="https://cdn.brickmmo.com/images@1.0.0/navbar-assets.png" />
   </a> 
 
@@ -232,6 +256,6 @@ let topbarHtml = `
   // Insert topbar at the top of the body
   document.head.insertAdjacentHTML('beforeend', styles);
   document.body.insertAdjacentHTML('afterbegin', topbarHtml);
-  // document.body.innerHTML += bottomBarHtml;
+  document.body.innerHTML += bottomBarHtml;
 
 })();
