@@ -24,6 +24,7 @@ let styles = `
   #bottom-bar-left,
   #bottom-bar-right {
     font-size: 25px !important;
+    line-height: 35px !important;
     position: fixed;
     bottom: 0;
     color: #848484 !important;
