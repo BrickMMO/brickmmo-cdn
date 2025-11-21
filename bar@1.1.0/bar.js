@@ -16,14 +16,15 @@ const profile = domain.includes('sso.' + (local ? 'local.' : '') + 'brickmmo');
 let styles = `
 <style>
 
-  #bottom-bar-left img,
-  #bottom-bar-right img {
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-    border: 1px solid red;
-    line-height: 0;
+  @media (max-width: 1200px) {
+    #bottom-bar-left,
+    #bottom-bar-right {
+      display: none !important;
+    }
   }
+    
+  #bottom-bar-left img,
+  #bottom-bar-right img,
   #bottom-bar-left a,
   #bottom-bar-right a {
     display: inline-block;
@@ -32,15 +33,7 @@ let styles = `
     border: 1px solid red;
     line-height: 0;
   }
-    
-    /* CRITICAL: Remove extra vertical space */
-    line-height: 0;
-  @media (max-width: 1200px) {
-    #bottom-bar-left,
-    #bottom-bar-right {
-      display: none !important;
-    }
-  }
+  
   #bottom-bar-left,
   #bottom-bar-right {
     font-size: 25px !important;
