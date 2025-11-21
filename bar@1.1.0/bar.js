@@ -23,15 +23,13 @@ let styles = `
   }
   #bottom-bar-left,
   #bottom-bar-right {
-    font-size: 15px !important;
+    font-size: 25px !important;
     position: fixed;
     bottom: 0;
-    width: 100%;
     color: #848484 !important;
     text-align: right;
-    padding: 15px;
+    padding: 10px 5px;
     z-index: 9998;
-    width: auto;
   }
   #bottom-bar-left {
     left: 0;
@@ -39,7 +37,6 @@ let styles = `
   #bottom-bar-right {
     right: 0;
   }
-
 
   #bar-container {
     position: fixed;
@@ -51,7 +48,7 @@ let styles = `
     color: white;
     display: flex;
     align-items: center;
-    padding: 0 10px;
+    padding: 10px 0;
     z-index: 9999;
     box-sizing: border-box;
     border-bottom: 1px solid #ccc;
@@ -112,15 +109,30 @@ let styles = `
 `;
 
 let bottomBarHtml = `
-<div id="bottom-bar-right" style="font-size: 1.5em; padding: 10px 0;">
-  <a href="https://www.tiktok.com/@brickmmo" target="_blank" style="margin:0 5px; color: #848484 !important;"><i class="fa-brands fa-tiktok"></i></a>
-  <a href="https://www.instagram.com/brickmmo" target="_blank" style="margin:0 5px; color: #848484 !important;"><i class="fa-brands fa-instagram"></i></a>
-  <a href="https://www.youtube.com/@brickmmo" target="_blank" style="margin:0 5px; color: #848484 !important;"><i class="fa-brands fa-youtube"></i></a>
-  <a href="https://github.com/BrickMMO" target="_blank" style="margin:0 10px 0 5px; color: #848484 !important;"><i class="fa-brands fa-github"></i></a>
+<div id="bottom-bar-right">
+  <a href="https://www.tiktok.com/@brickmmo" target="_blank" style="margin:0 5px; color: #848484 !important;">
+    <!--<i class="fa-brands fa-tiktok"></i>-->
+    <img src="https://cdn.brickmmo.com/images@1.0.0/social-tiktok.png" width="28">
+  </a>
+  <br>
+  <a href="https://www.instagram.com/brickmmo" target="_blank" style="margin:0 5px; color: #848484 !important;">
+    <!--<i class="fa-brands fa-instagram"></i>-->
+    <img src="https://cdn.brickmmo.com/images@1.0.0/social-instagram.png" width="28">
+  </a>
+  <br>
+  <a href="https://www.youtube.com/@brickmmo" target="_blank" style="margin:0 5px; color: #848484 !important;">
+    <!--<i class="fa-brands fa-youtube"></i>-->
+    <img src="https://cdn.brickmmo.com/images@1.0.0/social-youtube.png" width="28">
+  </a>
+  <br>
+  <a href="https://github.com/BrickMMO" target="_blank" style="margin:0 5px 0 5px; color: #848484 !important;">
+    <!--<i class="fa-brands fa-github"></i>-->
+    <img src="https://cdn.brickmmo.com/images@1.0.0/social-github.png" width="28">
+  </a>
 </div>
-<div id="bottom-bar-left" style="font-size: 1.5em; padding: 10px 0;">
+<div id="bottom-bar-left" style="font-size: 1.5em;">
   <a href="https://codeadam.ca" target="_blank" style="margin: 0 5px 0 10px;">
-    <img src="https://cdn.codeadam.ca/images@1.0.0/codeadam-logo-coloured.png" width="20">
+    <img src="https://cdn.codeadam.ca/images@1.0.0/codeadam-logo-coloured.png" width="28">
   </a>
 </div>
 `;
