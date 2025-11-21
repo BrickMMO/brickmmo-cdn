@@ -30,13 +30,13 @@ let styles = `
     display: inline-block;
     margin: 0;
     padding: 0;
-    line-height: 0;
+    line-height: 0 !important;
   }
   
   #bottom-bar-left,
   #bottom-bar-right {
     font-size: 25px !important;
-    line-height: 35px !important;
+    line-height: 0 !important;
     position: fixed;
     bottom: 0;
     color: #848484 !important;
