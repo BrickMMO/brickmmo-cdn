@@ -22,6 +22,7 @@ let styles = `
     margin: 0;
     padding: 0;
     border: 1px solid red;
+    line-height: 0;
   }
   #bottom-bar-left a,
   #bottom-bar-right a {
@@ -29,6 +30,7 @@ let styles = `
     margin: 0;
     padding: 0;
     border: 1px solid red;
+    line-height: 0;
   }
     
     /* CRITICAL: Remove extra vertical space */
