@@ -22,7 +22,7 @@ let styles = `
       display: none !important;
     }
   }
-    
+
   #bottom-bar-left img,
   #bottom-bar-right img,
   #bottom-bar-left a,
@@ -30,7 +30,6 @@ let styles = `
     display: inline-block;
     margin: 0;
     padding: 0;
-    border: 1px solid red;
     line-height: 0;
   }
   
