@@ -21,12 +21,14 @@ let styles = `
     display: inline-block;
     margin: 0;
     padding: 0;
+    border: 1px solid red;
   }
   #bottom-bar-left a,
   #bottom-bar-right a {
     display: inline-block;
     margin: 0;
     padding: 0;
+    border: 1px solid red;
   }
     
     /* CRITICAL: Remove extra vertical space */
