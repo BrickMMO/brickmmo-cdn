@@ -15,6 +15,22 @@ const profile = domain.includes('sso.' + (local ? 'local.' : '') + 'brickmmo');
 
 let styles = `
 <style>
+
+  #bottom-bar-left img,
+  #bottom-bar-right img {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+  }
+  #bottom-bar-left a,
+  #bottom-bar-right a {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+  }
+    
+    /* CRITICAL: Remove extra vertical space */
+    line-height: 0;
   @media (max-width: 1200px) {
     #bottom-bar-left,
     #bottom-bar-right {
