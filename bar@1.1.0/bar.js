@@ -123,28 +123,28 @@ let styles = `
 
 let bottomBarHtml = `
 <div id="bottom-bar-right">
-  <a href="https://www.tiktok.com/@brickmmo" target="_blank" style="margin:0 5px; color: #848484 !important;">
+  <a href="https://www.tiktok.com/@brickmmo" target="_blank" style="margin:5px;">
     <!--<i class="fa-brands fa-tiktok"></i>-->
     <img src="https://cdn.brickmmo.com/images@1.0.0/social-tiktok.png" width="28">
   </a>
   <br>
-  <a href="https://www.instagram.com/brickmmo" target="_blank" style="margin:0 5px; color: #848484 !important;">
+  <a href="https://www.instagram.com/brickmmo" target="_blank" style="margin:5px;">
     <!--<i class="fa-brands fa-instagram"></i>-->
     <img src="https://cdn.brickmmo.com/images@1.0.0/social-instagram.png" width="28">
   </a>
   <br>
-  <a href="https://www.youtube.com/@brickmmo" target="_blank" style="margin:0 5px; color: #848484 !important;">
+  <a href="https://www.youtube.com/@brickmmo" target="_blank" style="margin:5px;">
     <!--<i class="fa-brands fa-youtube"></i>-->
     <img src="https://cdn.brickmmo.com/images@1.0.0/social-youtube.png" width="28">
   </a>
   <br>
-  <a href="https://github.com/BrickMMO" target="_blank" style="margin:0 5px 0 5px; color: #848484 !important;">
+  <a href="https://github.com/BrickMMO" target="_blank" style="margin:5px;">
     <!--<i class="fa-brands fa-github"></i>-->
     <img src="https://cdn.brickmmo.com/images@1.0.0/social-github.png" width="28">
   </a>
 </div>
 <div id="bottom-bar-left" style="font-size: 1.5em;">
-  <a href="https://codeadam.ca" target="_blank" style="margin: 0 5px 0 10px;">
+  <a href="https://codeadam.ca" target="_blank" style="margin:5px;">
     <img src="https://cdn.codeadam.ca/images@1.0.0/codeadam-logo-coloured.png" width="28">
   </a>
 </div>
