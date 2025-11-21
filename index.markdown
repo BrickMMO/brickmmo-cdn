@@ -135,6 +135,14 @@ https://cdn.brickmmo.com/images@1.0.0/social-tiktok.png
 https://cdn.brickmmo.com/images@1.0.0/social-youtube.png
 ```
 
+```
+https://cdn.brickmmo.com/favicons@1.0.0/favicon-hubbub.png
+https://cdn.brickmmo.com/favicons@1.0.0/favicon-lively.png
+https://cdn.brickmmo.com/favicons@1.0.0/favicon-loot.png
+https://cdn.brickmmo.com/favicons@1.0.0/favicon-polybrick.png
+https://cdn.brickmmo.com/favicons@1.0.0/favicon-watts.png
+```
+
 > Available Versions: 1.0.0  
 > Documentation: [branding.brickmmo.com](https://branding.brickmmo.com)
 
