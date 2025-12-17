@@ -54,6 +54,7 @@ https://cdn.brickmmo.com/icons@1.0.0/brick-overflow.png
 https://cdn.brickmmo.com/icons@1.0.0/bricksum.png
 https://cdn.brickmmo.com/icons@1.0.0/brix.png
 https://cdn.brickmmo.com/icons@1.0.0/cdn.png
+https://cdn.brickmmo.com/icons@1.0.0/city.png
 https://cdn.brickmmo.com/icons@1.0.0/clock.png
 https://cdn.brickmmo.com/icons@1.0.0/colours.png
 https://cdn.brickmmo.com/icons@1.0.0/conversions.png
